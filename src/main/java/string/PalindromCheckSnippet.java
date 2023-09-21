@@ -24,9 +24,13 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * PalindromCheckSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class PalindromCheckSnippet {
 
   /**

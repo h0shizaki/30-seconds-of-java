@@ -24,10 +24,14 @@
 
 package algorithm;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * SieveOfEratosthenesSnippet.
  */
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class SieveOfEratosthenesSnippet {
   /**
    * Search an item with binarySearch algorithm.

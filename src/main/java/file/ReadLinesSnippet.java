@@ -24,6 +24,9 @@
 
 package file;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -32,6 +35,7 @@ import java.util.List;
 /**
  * ReadLinesSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ReadLinesSnippet {
 
   /**

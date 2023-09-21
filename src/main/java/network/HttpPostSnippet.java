@@ -24,6 +24,9 @@
 
 package network;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.URLEncoder;
@@ -37,6 +40,7 @@ import java.util.StringJoiner;
 /**
  * HttpPostSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class HttpPostSnippet {
 
   /**

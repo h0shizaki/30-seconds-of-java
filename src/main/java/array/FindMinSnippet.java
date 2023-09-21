@@ -24,11 +24,15 @@
 
 package array;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.Arrays;
  
 /**
   * FindMinSnippet.
   */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class FindMinSnippet {
  
   /**

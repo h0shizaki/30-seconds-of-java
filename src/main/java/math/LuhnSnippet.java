@@ -24,9 +24,13 @@
 
 package math;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * LuhnSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class LuhnSnippet {
 
   /**

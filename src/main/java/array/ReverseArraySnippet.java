@@ -24,9 +24,13 @@
 
 package array;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * ReverseArraySnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ReverseArraySnippet {
 
   /**

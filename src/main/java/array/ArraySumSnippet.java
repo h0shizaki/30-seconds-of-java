@@ -24,11 +24,15 @@
 
 package array;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.Arrays;
 
 /**
  * ArraySumSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ArraySumSnippet {
 
   /**

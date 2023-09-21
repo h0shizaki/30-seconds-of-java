@@ -24,12 +24,16 @@
 
 package thread;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
  * ThreadPool.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ThreadPool {
 
   /**

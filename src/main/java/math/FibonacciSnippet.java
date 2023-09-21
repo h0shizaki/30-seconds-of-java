@@ -24,12 +24,16 @@
 
 package math;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * FibonacciSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class FibonacciSnippet {
 
   /**

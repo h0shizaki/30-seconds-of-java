@@ -24,6 +24,9 @@
 
 package file;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -34,6 +37,7 @@ import java.util.zip.ZipOutputStream;
 /**
  * ZipDirectorySnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ZipDirectorySnippet {
 
   /**

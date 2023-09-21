@@ -24,12 +24,16 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.HashSet;
 import java.util.Set;
 
 /**
  * CommonLettersSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CommonLettersSnippet {
 
   /**

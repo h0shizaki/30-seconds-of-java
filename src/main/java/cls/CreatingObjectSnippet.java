@@ -24,11 +24,15 @@
 
 package cls;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.lang.reflect.InvocationTargetException;
 
 /**
  * CreatingObjectSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CreatingObjectSnippet {
 
   /**

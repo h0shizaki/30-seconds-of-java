@@ -24,10 +24,14 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * MaxCharacterCountSnippet.
  */
-public class MaxCharacterCountSnippet {
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+ class MaxCharacterCountSnippet {
 
   /**
    * The maximum count of times a specific character appears in a string.

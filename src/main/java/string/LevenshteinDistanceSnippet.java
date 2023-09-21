@@ -24,9 +24,13 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * LevenshteinDistanceSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class LevenshteinDistanceSnippet {
 
   /**

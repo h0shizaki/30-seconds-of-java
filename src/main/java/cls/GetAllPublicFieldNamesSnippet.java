@@ -24,6 +24,9 @@
 
 package cls;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
@@ -32,6 +35,7 @@ import java.util.stream.Collectors;
 /**
  * GetAllPublicFieldNamesSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class GetAllPublicFieldNamesSnippet {
 
   /**

@@ -24,6 +24,9 @@
 
 package media;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.awt.AWTException;
 import java.awt.Rectangle;
 import java.awt.Robot;
@@ -35,6 +38,7 @@ import javax.imageio.ImageIO;
 /**
  * CaptureScreenSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CaptureScreenSnippet {
 
   /**

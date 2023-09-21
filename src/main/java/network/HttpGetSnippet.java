@@ -24,6 +24,9 @@
 
 package network;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -32,6 +35,7 @@ import java.net.http.HttpResponse;
 /**
  * HttpGetSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class HttpGetSnippet {
 
   /**

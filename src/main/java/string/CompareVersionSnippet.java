@@ -24,9 +24,13 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * CompareVersionSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CompareVersionSnippet {
 
   private static final String EXTRACT_VERSION_REGEX = ".*?((?<!\\w)\\d+([.-]\\d+)*).*";

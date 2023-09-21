@@ -24,11 +24,15 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.Arrays;
 
 /**
  * AnagramSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class AnagramSnippet {
 
   /**

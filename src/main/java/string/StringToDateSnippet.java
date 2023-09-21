@@ -24,6 +24,9 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -31,6 +34,7 @@ import java.util.Date;
 /**
  * StringToDateSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class StringToDateSnippet {
 
   /**

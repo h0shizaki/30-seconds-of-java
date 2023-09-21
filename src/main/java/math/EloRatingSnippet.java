@@ -24,9 +24,13 @@
 
 package math;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * FactorialSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class EloRatingSnippet {
 
   static final int BASE = 400; //Two types are popular - 400 and 480. We will choose 400 here

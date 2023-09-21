@@ -24,6 +24,9 @@
 
 package date;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Calendar;
@@ -32,6 +35,7 @@ import java.util.Date;
 /**
  * AddDaysToDateSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class AddDaysToDateSnippet {
 
   /**

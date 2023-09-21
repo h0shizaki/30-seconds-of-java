@@ -24,10 +24,14 @@
 
 package algorithm;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * CycleSortSnippet.
  */
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CycleSortSnippet {
 
   /**

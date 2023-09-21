@@ -24,6 +24,9 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -31,6 +34,7 @@ import java.util.Set;
  * DuplicateCharacterSnippet.
  */
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class DuplicateCharacterSnippet {
 
   /**
