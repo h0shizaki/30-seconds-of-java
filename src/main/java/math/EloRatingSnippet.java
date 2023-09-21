@@ -51,8 +51,6 @@ public class EloRatingSnippet {
     double logisticDiff = Math.pow(10, ratingDiff);
     double firstPlayerExpectedScore = 1.0 / (1 + logisticDiff);
     double firstPlayerActualScore = result;
-    double newRating = firstPlayerRating + RATING_ADJUSTMENT_FACTOR * (firstPlayerActualScore 
-                       - firstPlayerExpectedScore);
-    return newRating;
+    return firstPlayerRating + RATING_ADJUSTMENT_FACTOR * (firstPlayerActualScore - firstPlayerExpectedScore);
   }
 }
