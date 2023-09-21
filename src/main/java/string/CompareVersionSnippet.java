@@ -27,14 +27,13 @@ package string;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
+
 /**
  * CompareVersionSnippet.
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class CompareVersionSnippet {
-
-  private static final String EXTRACT_VERSION_REGEX = ".*?((?<!\\w)\\d+([.-]\\d+)*).*";
-
+  
   /**
    * Compares two version strings.
    * Credits: https://stackoverflow.com/a/6702000/6645088 and https://stackoverflow.com/a/44592696/6645088
@@ -61,6 +60,6 @@ public class CompareVersionSnippet {
   }
 
   private static String[] getVersionComponents(String version) {
-    return version.replaceAll(EXTRACT_VERSION_REGEX, "$1").split("\\.");
+    return  version.split("\\.");
   }
 }
